@@ -18,6 +18,10 @@ public class Main {
 		 * Casos possiveis:
 		 * /controlador/metodo
 		 * /controlador/metodo?param1=valor1&param2=valor2
+		 *
+		 * /produto/filtra?nome=produto
+		 *
+		 * /produto/filtra?nome=produto&marca 1
 		 */
 		
 		try (Scanner s = new Scanner(System.in)) {

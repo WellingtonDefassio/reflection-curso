@@ -16,6 +16,9 @@ public class ProdutoController {
 	}
 	
 	public List<Produto> lista() {
+
+		System.out.println("executou a lista do ProdutoController");
+
 		return produtoDao.lista();
 	}
 	
