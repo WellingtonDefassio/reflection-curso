@@ -2,11 +2,12 @@ package reflexao;
 
 import controle.Controle;
 
+import java.io.IOException;
 import java.lang.constant.Constable;
 
 public class TesteInstanciaObjeto {
 
-    public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+    public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IOException {
 
         Class<Controle> controleClass1 = Controle.class;
         Controle controle2 = new Controle();
